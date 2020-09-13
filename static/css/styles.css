@@ -1,0 +1,34 @@
+.carousel{
+    height:400px;
+    overflow: hidden;
+}
+
+.head{
+  text-align: center;
+  margin-top: 10px;
+  color: #ff8808;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.descr{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.elem{
+    margin: 0 auto;
+}
+
+.card-img{
+    object-fit: cover;
+    width: 100%;
+    height: 15vw;
+}
+
+.col-md-8{
+    background-color: #baa896;
+}
