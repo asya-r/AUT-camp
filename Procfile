@@ -1,1 +1,1 @@
-web: bin/AUT-camp
+web: ./AUT-camp
