@@ -1,1 +1,1 @@
-web: ./AUT-camp
+web: ./main
