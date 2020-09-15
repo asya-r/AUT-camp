@@ -18,6 +18,7 @@ CREATE TABLE camp (
     , start_lng FLOAT NOT NULL
     , start_date DATE NOT NULL
     , end_date DATE
+    , members_num INT NOT NULL
 );
 CREATE TABLE user_camp (
       id INT PRIMARY KEY NOT NULL
