@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"AUT-camp/models"
 	"html/template"
 	"log"
 	"net/http"
@@ -13,12 +14,12 @@ func Camps(w http.ResponseWriter, r *http.Request) {
 			log.Fatal(err)
 		}
 	}
+	camps := models.GetCamps()
 
 	tpl, err := template.ParseFiles("./views/camps.gohtml")
 	check(err)
-	text := "Main page"
 	err = tpl.Execute(w, map[string]interface{}{
-		"text": text,
+		"camps": camps,
 	})
 	check(err)
 }
