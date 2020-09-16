@@ -1,1 +1,0 @@
-web: ./AUT-camp
